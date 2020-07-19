@@ -31,7 +31,7 @@ namespace JE.Restaurant.Console
                 }
             });
 
-            System.Console.WriteLine("Press any key to exit");
+            System.Console.WriteLine("Press enter key to exit");
             System.Console.ReadLine();
         }
 
