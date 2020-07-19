@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{C50B0266-DDF3-4A93-B7EB-82DE3D1A0462}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JE.Restaurant.Console/JE.Restaurant.Console.csproj">
+    <Files>
+      <File FileName="JE.Restaurants.Web.Tests/Component/EmptyClass.cs" Line="105" Column="2" />
+      <File FileName="JE.Restaurants.Web.Tests/JE.Restaurant.WebApi.Tests.csproj" Line="17" Column="15" />
+      <File FileName="JE.Restaurants.Web.Tests/Component/TestServerFactory.cs" Line="21" Column="41" />
+      <File FileName="JE.Restaurants.Web.Tests/Unit/UnitTest1.cs" Line="14" Column="10" />
+      <File FileName="JE.Restaurants.Web/Program.cs" Line="21" Column="49" />
+      <File FileName="JE.Restaurants.Web/Startup.cs" Line="1" Column="1" />
+      <File FileName="JE.JustEatPublic.Client.Http/Resources/RestaurantResource.cs" Line="8" Column="53" />
+      <File FileName="JE.JustEatPublic.Client.Http/JustEatPublicApiClient.cs" Line="13" Column="1" />
+      <File FileName="JE.JustEat.Public.Contracts/Models/TemperaturesRestaurant.cs" Line="16" Column="20" />
+      <File FileName="JE.JustEat.Public.Contracts/Models/Temperatures.cs" Line="10" Column="25" />
+      <File FileName="JE.JustEat.Public.Contracts/Models/CuisineType.cs" Line="10" Column="41" />
+      <File FileName="JE.JustEat.Public.Contracts/Converters/JsonPathConverter.cs" Line="1" Column="1" />
+      <File FileName="JE.JustEatPublic.Client.Http/Resources/HttpClientExtensions.cs" Line="1" Column="1" />
+      <File FileName="JE.Restaurants.Web/Services/IRestaurantService.cs" Line="1" Column="1" />
+      <File FileName="JE.Restaurants.Web/Services/RestaurantService.cs" Line="28" Column="10" />
+      <File FileName="JE.Restaurants.Web/Controllers/RestaurantsController.cs" Line="22" Column="29" />
+      <File FileName="JE.JustEatPublic.Client.Http/Interfaces/IRestaurantResource.cs" Line="8" Column="26" />
+      <File FileName="JE.Restaurant.Console/Program.cs" Line="18" Column="14" />
+      <File FileName="JE.Restaurant.Console/Commands/EmptyCommand.cs" Line="1" Column="1" />
+      <File FileName="JE.Restaurant.Console/Commands/IConsoleCommand.cs" Line="1" Column="1" />
+      <File FileName="JE.Restaurant.Console/Commands/RunGetRestaurantByPostCodeCommand.cs" Line="46" Column="1" />
+      <File FileName="JE.Restaurant.Console/Commands/ConsoleCommandFactory.cs" Line="1" Column="1" />
+      <File FileName="JE.Restaurants.Web/Dtos/RestaurantDto.cs" Line="1" Column="1" />
+      <File FileName="JE.Restaurant.Console/JE.Restaurant.Console.csproj" Line="6" Column="69" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="justeat-tech" expanded="True">
+            <Node name="JE.Restaurant.Console" expanded="True" selected="True">
+              <Node name="Commands" expanded="True" />
+            </Node>
+            <Node name="JE.Restaurant.WebApi" expanded="True">
+              <Node name="Dtos" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="justeat-tech" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.JE.Restaurant.Console PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/bkucheriavyi/Desktop/Personal/justeat-tech/JE.Restaurant.Console/Commands/RunGetRestaurantByPostCodeCommand.cs" relfile="JE.Restaurant.Console/Commands/RunGetRestaurantByPostCodeCommand.cs" line="46" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
