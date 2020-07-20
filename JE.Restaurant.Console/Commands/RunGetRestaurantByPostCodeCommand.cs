@@ -20,15 +20,8 @@ namespace JE.Restaurant.Console
             {
                 var postCode = args[2];
                 var result = await GetRestaurants(ctx.WebHostUrl, postCode);
-                if (result == string.Empty)
-                {
-                    System.Console.WriteLine($"Sorry, nothing was found for {postCode}");
-                }
-                else
-                {
-                    System.Console.WriteLine($"Listing results:");
-                    TryPrintResults(result);
-                }
+                System.Console.WriteLine($"Listing results:");
+                TryPrintResults(result);
             });
 
             System.Console.WriteLine("Press enter key to exit");
@@ -39,7 +32,6 @@ namespace JE.Restaurant.Console
         {
             try
             {
-                
                 JArray jsonVal = JArray.Parse(jsonString) as JArray;
                 dynamic restaurants = jsonVal;
                 System.Console.WriteLine($"Found restaurants in the area: {jsonVal.Count}");
@@ -52,7 +44,6 @@ namespace JE.Restaurant.Console
             {
                 System.Console.WriteLine("Sorry, I was unable to parse results.Error response?");
             }
-            
         }
 
         private class CurrentContext
@@ -115,7 +106,7 @@ namespace JE.Restaurant.Console
                     }
                     catch (HttpRequestException)
                     {
-                        System.Console.WriteLine($"No luck, maybe web service is yet started?\nLet's try again...({attempt + 1}/{3})");
+                        System.Console.WriteLine($"No luck, maybe web service is not yet started?\nLet's try again...({attempt + 1}/{3})");
                         await Task.Delay(TimeSpan.FromSeconds(5));
                         attempt++;
                         continue;
