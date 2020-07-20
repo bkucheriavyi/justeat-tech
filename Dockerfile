@@ -14,4 +14,4 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
 COPY --from=build-env /app/built .
 RUN ls -la
-ENTRYPOINT [ "/bin/bash", "-c", "./JE.Restaurant.Console --get-restaurants -c ec4m" ] 
+ENTRYPOINT [ "/bin/bash", "-c"] 
